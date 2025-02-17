@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#sqi{
+    background-color: white;
+}
+.imgSqi{
+    width: 77.4px;
+    height: 77.4px;
+    margin-left: 100px;
+    
+}
+.navo{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 80px;
+}
+.nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    border: medium solid white;
+}
+.navRight{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.navRight > li > a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 32, 138);
+    display: block;
+    height: 70px;
+    padding: 10px 16px;
+    text-wrap: nowrap;
+}
+.navRight > li > a:hover{
+    color: rgba(0, 32, 138, 0.507);
+}
+
+
+.link1{
+    position: relative;
+}
+.pop1{
+    position: absolute;
+    top: 64;
+    border-top: medium solid rgb(0, 32, 138);
+    width: 250px;
+    padding: 20px 15px;
+    list-style-type: none;
+    display: none;
+}
+.pop1 li{
+    padding: 10px 15px;
+}
+.pop1 li a{
+    text-decoration: none;
+    color: black;
+}
+.pop1 li:hover{
+    background-color: rgba(141, 137, 137, 0.112);
+}
+.link1:hover > .pop1{
+    display: block;
+}
+.link2{
+    position: relative;
+}
+.pop2{
+    position: absolute;
+    top: 64;
+    border-top: medium solid rgb(0, 32, 138);
+    width: 250px;
+    padding: 20px 34px;
+    list-style-type: none;
+    line-height: 1.5em;
+    display: none;
+}
+.pop2 li{
+    padding: 10px 15px;
+}
+.pop2 li:hover{
+    background-color: rgba(141, 137, 137, 0.112);
+}
+.pop2 li a{
+    text-decoration: none;
+    color: black;
+}
+.link2:hover > .pop2{
+    display: block;
+}
+.link3{
+    position: relative;
+}
+
+.pop3{
+    position: absolute;
+    top: 64;
+    border-top: medium solid rgb(0, 32, 138);
+    width: 250px;
+    padding: 20px 34px;
+    list-style-type: none;
+    line-height: 1.5em;
+    display: none;
+}
+.pop3 li{
+    padding: 10px 15px;
+}
+.pop3 li:hover{
+    background-color: rgba(141, 137, 137, 0.112);
+}
+.pop3 li a{
+    text-decoration: none;
+    color: black;
+}
+.link3:hover > .pop3{
+    display: block;
+}
+.link4{
+    position: relative;
+}
+.pop4{
+    position: absolute;
+    top: 64;
+    border-top: medium solid rgb(0, 32, 138);
+    width: 250px;
+    padding: 20px 34px;
+    list-style-type: none;
+    line-height: 1.5em;
+    display: none;
+}
+.pop4 li{
+    padding: 10px 15px;
+}
+.pop4 li:hover{
+    background-color: rgba(141, 137, 137, 0.112);
+}
+.pop4 li a{
+    text-decoration: none;
+    color: black;
+}
+.link4:hover > .pop4{
+    display: block;
+}
+body{
+    font-family: Helvetica, Arial, Lucida, sans-serif;
+}
+.section_0{
+    background-color: rgb(255, 253, 246);
+}
+header{
+    background-color: rgb(255, 253, 246);
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.headLeft{
+    width: 35vw;
+    height: 400px;
+    background-color: rgb(255, 253, 246);
+    padding-top: 55px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.headRight{
+    width: 40vw;
+    background-color: rgb(255, 253, 246);
+    
+}.headRight img{
+    background-color:rgb(255, 253, 246);
+    width: 500px;
+    margin-top: 50px;
+}
+.headLeft h1{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+}
+.headLeft p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.Bstart button{
+    background-color: rgb(0, 32, 138);
+    font-size: 1em;
+    width: 130px;
+    height: 55px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.Bstart A{
+    color: white;
+    text-decoration: none;
+}
+
+.galp{
+    border-top: medium solid rgba(19, 19, 19, 0.1);
+    padding: 30px;
+}
+
+body{
+    font-family: Helvetica, Arial, Lucida, sans-serif;
+}
+.section_1 h2{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: rgb(0, 32, 138);
+}
+.container1{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+}
+.column img{
+    width: 280px;
+}
+.column h3{
+    margin-block: 30px;
+    color: rgb(0, 32, 138);
+}
+.column p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.701);
+    font-size: 1rem;
+}
+.column div{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.column div a{
+    text-decoration: none;
+    color: rgb(47, 69, 102);
+    border-bottom: medium solid rgb(38, 54, 78);
+    padding: 10px 0;
+    font-size: 1rem;
+}
+.container2{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+}
+.program b{
+    font-size: 1rem;
+}
+.program p{
+    padding-top: 15px;
+    padding-bottom: 0;
+    border-bottom: thin solid #2ea3f2;;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.701);
+}
+.program p:last-child{
+    border-bottom: none;
+    margin-bottom: 50px;
+}
+
+.program{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+.part{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.part_A{
+    display: inline;
+    padding: 40px;
+    width: 100%;
+}
+.part_B{
+    display: inline;
+    margin-top: 160px;
+    width: 100%;
+    padding: 50px;
+}
+.topCourse{
+    margin-left: 7px;
+    margin-bottom: -45px;
+    margin-top: 60px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.software img{
+    width: 100%;
+    border-radius: 20px;
+}
+.software{
+    border: thin solid black;
+    width: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(136, 196, 221, 0.35);
+    line-height: 1.8em;
+    margin-top: 110px;
+    font-size: 1rem;
+}
+.product img{
+    width: 100%;
+    border-radius: 20px
+}
+.product{
+    border: thin solid black;
+    width: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(224, 213, 192, 1);
+    line-height: 1.8em;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.data img{
+    width: 100%;
+    border-radius: 20px
+}
+.data{
+    border: thin solid black;
+    width: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(238, 239, 189, 1);
+    line-height: 1.8em;
+}
+.digital img{
+    width: 100%;
+    border-radius: 20px
+}
+.digital{
+    border: thin solid black;
+    width: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(223, 213, 232, 1);
+    line-height: 1.8em;
+    margin-top: 40px;
+}
